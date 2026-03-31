@@ -5,7 +5,9 @@ import { ProjectsSection } from "./components/projects-section";
 import type { Project } from "./components/projects-section";
 
 const summary =
-  "Flutter Developer with 2+ years of experience building scalable mobile applications using Flutter and Dart. Strong expertise in state management, clean architecture, API integration, and performance optimization. Experienced in delivering production-ready apps and collaborating effectively within agile teams.";
+  "Flutter Developer with 2+ years of experience building and delivering scalable mobile applications for Android and iOS. Skilled in Clean Architecture, Bloc/Cubit state management, and performance optimization. Experienced in working with real clients, handling production apps, and publishing to App Store and Google Play. Passionate about building high-quality, user-friendly applications and continuously improving performance and maintainability.";
+
+const portfolioUrl = "https://ahmed-salah-seven.vercel.app/";
 
 const experiences = [
   {
@@ -14,8 +16,9 @@ const experiences = [
     type: "Part-Time, Remote",
     period: "Jan 2025 - Present",
     bullets: [
-      "Worked part-time as a Flutter Developer due to military service.",
-      "Developing and maintaining mobile applications using Flutter.",
+      "Continued developing and maintaining production applications during military service.",
+      "Implemented features using Clean Architecture and Bloc/Cubit.",
+      "Fixed bugs and improved app stability based on tester feedback.",
     ],
   },
   {
@@ -24,8 +27,9 @@ const experiences = [
     type: "Full-Time, Hybrid",
     period: "Jul 2024 - Jan 2025",
     bullets: [
-      "Delivered features and solutions tailored to client requirements.",
-      "Conducted code reviews and collaborated with testers to resolve issues.",
+      "Developed and delivered multiple Flutter features based on client requirements.",
+      "Collaborated with backend developers and QA to ensure high-quality releases.",
+      "Participated in code reviews to improve code quality and maintainability.",
     ],
   },
   {
@@ -34,19 +38,21 @@ const experiences = [
     type: "Freelance",
     period: "Sep 2023 - Present",
     bullets: [
-      "Developed and maintained mobile applications using Flutter and Dart.",
-      "Wrote clean, maintainable code.",
-      "Integrated RESTful APIs and ensured seamless backend communication.",
+      "Built custom Flutter mobile applications for different clients.",
+      "Integrated RESTful APIs, Firebase services, and local storage solutions.",
+      "Wrote clean, maintainable, and scalable Flutter code.",
+      "Delivered projects end-to-end from requirements to deployment.",
     ],
   },
   {
     role: "Flutter Developer Intern",
-    company: "Make Your Miracle",
+    company: "Make Your Miracle Startup",
     type: "Remote",
     period: "May 2023 - Oct 2023",
     bullets: [
-      "Built a Flutter app for schools to share announcements, events, and schedule changes.",
-      "Collaborated with cross-functional teams to meet product requirements.",
+      "Developed a Flutter application for schools to send announcements and notifications.",
+      "Implemented features for events, schedule updates, and emergency alerts.",
+      "Collaborated with cross-functional teams to meet functional requirements.",
     ],
   },
   {
@@ -55,8 +61,9 @@ const experiences = [
     type: "Community",
     period: "Jun 2022 - Jun 2023",
     bullets: [
-      "Worked on a GDSC project to develop a Flutter e-commerce app.",
-      "Completed the project and earned the certificate.",
+      "Contributed to developing a Flutter-based e-commerce application.",
+      "Worked within a team following structured development practices.",
+      "Successfully completed the project and received certification.",
     ],
   },
 ];
@@ -107,25 +114,72 @@ const skills = {
 
 const projects: Project[] = [
   {
+    name: "Wassal App",
+    date: "Mar 2026",
+    status: "Under development",
+    description:
+      "A bilingual mobile application that connects users with merchants to order construction materials.",
+    tags: ["Construction", "In Progress"],
+    links: [],
+  },
+  {
+    name: "Food Rank App",
+    date: "Feb 2026",
+    status: "Published",
+    description:
+      "A mobile application that allows users to rate restaurants based on overall experience.",
+    tags: ["Food", "Published", "iOS", "Android"],
+    links: [
+      {
+        label: "Android",
+        href: "https://play.google.com/store/apps/details?id=me.tamoura.foodrank",
+      },
+      {
+        label: "iOS",
+        href: "https://apps.apple.com/eg/app/foodrank/id6760346130",
+      },
+    ],
+  },
+  {
     name: "Filey App",
     date: "Nov 2025",
-    status: "Not published yet",
-    tags: ["Productivity", "Not Published"],
+    status: "Published",
+    description:
+      "A mobile application for managing, organizing, and editing files directly on the device.",
+    tags: ["Productivity", "Published", "iOS"],
     logo: "/Filey.png",
-    links: [],
+    links: [
+      {
+        label: "iOS",
+        href: "https://apps.apple.com/us/app/filey-studio/id6758226508",
+      },
+    ],
   },
   {
     name: "Boost App",
     date: "Aug 2025",
-    status: "Not published yet",
-    tags: ["Fitness", "Not Published"],
+    status: "Published",
+    description:
+      "A mobile application that allows users to book football fields, subscribe to clubs, and enroll in training sessions.",
+    tags: ["Sports", "Published", "iOS", "Android"],
     logo: "/BOOST.png",
-    links: [],
+    links: [
+      {
+        label: "iOS",
+        href: "https://apps.apple.com/us/app/boost-sports-club/id6759531131",
+      },
+      {
+        label: "Android",
+        href: "https://play.google.com/store/apps/details?id=online.boostclub.app",
+      },
+    ],
   },
   {
     name: "Sinan Club App",
     date: "Jul 2025",
     status: "Published",
+    description:
+      "Built a production platform for an educational club serving parents and children.",
     tags: ["Education", "Published", "iOS", "Web"],
     logo: "/sinan.png",
     links: [
@@ -143,6 +197,8 @@ const projects: Project[] = [
     name: "Juniors App",
     date: "Feb 2025",
     status: "Published",
+    description:
+      "Flutter-based educational platform published on App Store and Google Chrome.",
     tags: ["Education", "Published", "iOS", "Web"],
     logo: "/Juniors.png",
     links: [
@@ -153,58 +209,6 @@ const projects: Project[] = [
       {
         label: "Web",
         href: "https://juniors.app/juniors",
-      },
-    ],
-  },
-  {
-    name: "Arabian App",
-    date: "Nov 2024",
-    status: "Published",
-    tags: ["Travel", "Published", "iOS", "Android"],
-    logo: "/arabianPeaks.png",
-    links: [
-      {
-        label: "iOS",
-        href: "https://apps.apple.com/eg/app/arabian-peaks/id6746092787",
-      },
-      {
-        label: "Android",
-        href: "https://play.google.com/store/apps/details?id=com.arabian_peaks.arabian_peaks_app",
-      },
-    ],
-  },
-  {
-    name: "Fahs App",
-    date: "Oct 2024",
-    status: "Published",
-    tags: ["Car", "Finance", "Published", "iOS", "Android"],
-    logo: "/FAHS.png",
-    logoScale: 0.7,
-    links: [
-      {
-        label: "iOS",
-        href: "https://apps.apple.com/eg/app/%D9%81%D8%AD%D8%B5/id1574295592",
-      },
-      {
-        label: "Android",
-        href: "https://play.google.com/store/apps/details?id=com.acwad.fahs&hl=en",
-      },
-    ],
-  },
-  {
-    name: "Egyptian Coach Application",
-    date: "Oct 2024",
-    status: "Published",
-    tags: ["Fitness", "Published", "iOS", "Android"],
-    logo: "/EgyptianCoach.png",
-    links: [
-      {
-        label: "iOS",
-        href: "https://apps.apple.com/eg/app/egyptian-coach/id1491911684",
-      },
-      {
-        label: "Android",
-        href: "https://play.google.com/store/apps/details?id=com.egyptiancoach&hl=en",
       },
     ],
   },
@@ -260,8 +264,8 @@ export default function Home() {
                   Flutter Developer
                 </p>
                 <p className="mt-4 text-base text-slate-600 dark:text-slate-300">
-                  Building high-performance mobile experiences with polished UI,
-                  scalable architecture, and seamless API integration.
+                  Building high-quality mobile experiences with scalable architecture,
+                  polished UI, and production-ready performance.
                 </p>
               </div>
 
@@ -286,7 +290,7 @@ export default function Home() {
                     >
                       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
                     </svg>
-                    Cairo - Egypt
+                    Cairo, El-Zaher
                   </span>
                   <a
                     href="mailto:aahmedabosalah2@gmail.com"
@@ -355,6 +359,15 @@ export default function Home() {
                     GitHub
                     <span aria-hidden="true">-&gt;</span>
                   </a>
+                  <a
+                    href={portfolioUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] px-4 py-2 text-slate-700 transition hover:border-[color:var(--accent)] hover:text-[color:var(--accent)] dark:text-slate-200"
+                  >
+                    Portfolio
+                    <span aria-hidden="true">-&gt;</span>
+                  </a>
               </div>
             </div>
 
@@ -383,7 +396,7 @@ export default function Home() {
                       >
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
                       </svg>
-                      Cairo - Egypt
+                      Cairo, El-Zaher
                     </span>
                   </div>
                   <div className="flex flex-col items-start gap-1 sm:flex-row sm:items-center sm:justify-between">
@@ -435,7 +448,7 @@ export default function Home() {
                     >
                       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
                     </svg>
-                    Cairo - Egypt
+                    Cairo, El-Zaher
                   </span>
                 </div>
                 <div className="flex flex-col items-start gap-1 sm:flex-row sm:items-center sm:justify-between">
@@ -572,7 +585,7 @@ export default function Home() {
                 Sep 2020 - Jun 2024
               </p>
               <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
-                Egyptian E-Learning University, El Wadi South Campus
+                Egyptian E-Learning University (EELU)
               </p>
               <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
                 Graduation Project: A+; GPA 3.52; Very Good with Honors.
@@ -584,9 +597,10 @@ export default function Home() {
         <ContactSection
           email="aahmedabosalah2@gmail.com"
           phone="+201061008876"
-          location="Cairo - Egypt"
+          location="Cairo, El-Zaher"
           linkedin="https://www.linkedin.com/in/ahmed-salah-5084b71b6"
           github="https://github.com/ahmedaboslah"
+          portfolio={portfolioUrl}
         />
       </main>
 
@@ -609,6 +623,14 @@ export default function Home() {
               className="transition hover:text-[color:var(--accent)]"
             >
               GitHub
+            </a>
+            <a
+              href={portfolioUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-[color:var(--accent)]"
+            >
+              Portfolio
             </a>
           </div>
         </div>

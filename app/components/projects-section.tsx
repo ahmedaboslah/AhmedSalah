@@ -7,6 +7,7 @@ export type Project = {
   name: string;
   date: string;
   status: string;
+  description?: string;
   tags: string[];
   links: { label: string; href: string }[];
   logo?: string;
@@ -78,7 +79,12 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
 
         <div className="mt-10 grid gap-6 gap-y-12 md:grid-cols-2">
           {filteredProjects.map((project) => {
-            const isDraft = project.status.toLowerCase().includes("not");
+            const normalizedStatus = project.status.toLowerCase();
+            const isDraft =
+              normalizedStatus.includes("not") ||
+              normalizedStatus.includes("under") ||
+              normalizedStatus.includes("progress") ||
+              normalizedStatus.includes("development");
             return (
               <article
                 key={project.name}
@@ -128,6 +134,12 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
                       );
                     })}
                   </div>
+
+                  {project.description ? (
+                    <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                      {project.description}
+                    </p>
+                  ) : null}
                 </div>
 
                 <div className="mt-6 flex flex-wrap gap-3">

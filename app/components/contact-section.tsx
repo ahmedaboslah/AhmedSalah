@@ -8,6 +8,7 @@ type ContactSectionProps = {
   location: string;
   linkedin: string;
   github: string;
+  portfolio?: string;
 };
 
 type CopyState = "idle" | "copied" | "failed";
@@ -18,6 +19,7 @@ export function ContactSection({
   location,
   linkedin,
   github,
+  portfolio,
 }: ContactSectionProps) {
   const [copyState, setCopyState] = useState<CopyState>("idle");
 
@@ -177,6 +179,17 @@ export function ContactSection({
                   GitHub
                   <span aria-hidden="true">-&gt;</span>
                 </a>
+                {portfolio ? (
+                  <a
+                    href={portfolio}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] px-4 py-2 text-xs font-semibold text-slate-700 transition hover:border-[color:var(--accent)] hover:text-[color:var(--accent)] dark:text-slate-200"
+                  >
+                    Portfolio
+                    <span aria-hidden="true">-&gt;</span>
+                  </a>
+                ) : null}
               </div>
             </div>
           </div>
