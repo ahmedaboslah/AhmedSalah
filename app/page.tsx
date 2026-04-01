@@ -5,7 +5,7 @@ import { ProjectsSection } from "./components/projects-section";
 import type { Project } from "./components/projects-section";
 
 const summary =
-  "Flutter Developer with 2+ years of experience building and delivering scalable mobile applications for Android and iOS. Skilled in Clean Architecture, Bloc/Cubit state management, and performance optimization. Experienced in working with real clients, handling production apps, and publishing to App Store and Google Play. Passionate about building high-quality, user-friendly applications and continuously improving performance and maintainability.";
+  "Flutter Developer with 2+ years of experience building and delivering scalable mobile applications for Android & iOS, Skilled in Clean Architecture, Bloc/Cubit state management, and performance optimization, experienced in working with real clients, handling production apps, and publishing to App Store & Google Play, Passionate about building high-quality, user-friendly applications and continuously improving performance and maintainability";
 
 const portfolioUrl = "https://ahmed-salah-seven.vercel.app/";
 
@@ -238,7 +238,7 @@ export default function Home() {
 
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">
-                  Mobile Application Developer (Flutter)
+                  Mobile Application Developer | Flutter Developer (iOS & Android) | FrontEnd Developer
                 </p>
                 <h1 className="mt-4 text-4xl font-semibold text-slate-900 dark:text-white sm:text-5xl font-serif">
                   <span className="inline-flex items-center gap-3">
@@ -261,7 +261,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mt-3 text-lg font-medium text-[color:var(--accent)]">
-                  Flutter Developer
+                  Flutter Developer & FrontEnd Developer
                 </p>
                 <p className="mt-4 text-base text-slate-600 dark:text-slate-300">
                   Building high-quality mobile experiences with scalable architecture,
@@ -434,7 +434,7 @@ export default function Home() {
                 <div className="flex flex-col items-start gap-1 sm:flex-row sm:items-center sm:justify-between">
                   <span>Title</span>
                   <span className="font-semibold text-slate-900 dark:text-white sm:text-right">
-                    Mobile Application Developer (Flutter)
+                    Mobile Application Developer | Flutter Developer (iOS & Android) | FrontEnd Developer
                   </span>
                 </div>
                 <div className="flex flex-col items-start gap-1 sm:flex-row sm:items-center sm:justify-between">
