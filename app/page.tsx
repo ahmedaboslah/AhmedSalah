@@ -12,8 +12,8 @@ const portfolioUrl = "https://ahmed-salah-seven.vercel.app/";
 const experiences = [
   {
     role: "Flutter Developer",
-    company: "Harmony Invention",
-    type: "Part-Time, Remote",
+    company: "Harmony Invention Team",
+    type: "Remotely, Part Time",
     period: "Jan 2025 - Present",
     bullets: [
       "Continued developing and maintaining production applications during military service.",
@@ -23,8 +23,8 @@ const experiences = [
   },
   {
     role: "Flutter Developer",
-    company: "Harmony Invention",
-    type: "Full-Time, Hybrid",
+    company: "Harmony Invention Team",
+    type: "Hybrid, Full Time",
     period: "Jul 2024 - Jan 2025",
     bullets: [
       "Developed and delivered multiple Flutter features based on client requirements.",
@@ -33,9 +33,9 @@ const experiences = [
     ],
   },
   {
-    role: "Flutter Developer",
-    company: "Mostaql",
-    type: "Freelance",
+    role: "Flutter Developer - Freelancer (Mostaql)",
+    company: "",
+    type: "",
     period: "Sep 2023 - Present",
     bullets: [
       "Built custom Flutter mobile applications for different clients.",
@@ -45,9 +45,9 @@ const experiences = [
     ],
   },
   {
-    role: "Flutter Developer Intern",
+    role: "Flutter Developer Internship",
     company: "Make Your Miracle Startup",
-    type: "Remote",
+    type: "Remotely",
     period: "May 2023 - Oct 2023",
     bullets: [
       "Developed a Flutter application for schools to send announcements and notifications.",
@@ -56,8 +56,8 @@ const experiences = [
     ],
   },
   {
-    role: "Flutter Developer (GDSC)",
-    company: "Google Developer Student Club - Menoufia",
+    role: "Flutter GDSC Community",
+    company: "Menoufi",
     type: "Community",
     period: "Jun 2022 - Jun 2023",
     bullets: [
@@ -545,7 +545,7 @@ export default function Home() {
                         {experience.role}
                       </h3>
                       <p className="text-sm text-slate-500 dark:text-slate-400">
-                        {experience.company} - {experience.type}
+                        {[experience.company, experience.type].filter(Boolean).join(" - ")}
                       </p>
                     </div>
                     <span className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
