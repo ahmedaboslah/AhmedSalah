@@ -355,15 +355,6 @@ export default function Home() {
                     GitHub
                     <span aria-hidden="true">-&gt;</span>
                   </a>
-                  <a
-                    href={portfolioUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] px-4 py-2 text-slate-700 transition hover:border-[color:var(--accent)] hover:text-[color:var(--accent)] dark:text-slate-200"
-                  >
-                    Portfolio
-                    <span aria-hidden="true">-&gt;</span>
-                  </a>
               </div>
             </div>
 
