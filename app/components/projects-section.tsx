@@ -22,6 +22,9 @@ const PLATFORM_ICONS: Record<string, { src: string; alt: string }> = {
   iOS: { src: "/appleStore.jpg", alt: "Apple App Store" },
   Android: { src: "/googlePlay.jpg", alt: "Google Play" },
   Web: { src: "/globe.svg", alt: "Web" },
+  "App Store": { src: "/appleStore.jpg", alt: "Apple App Store" },
+  "Google Play": { src: "/googlePlay.jpg", alt: "Google Play" },
+  "Web Site": { src: "/globe.svg", alt: "Web" },
 };
 
 export function ProjectsSection({ projects }: ProjectsSectionProps) {

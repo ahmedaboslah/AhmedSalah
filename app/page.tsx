@@ -118,7 +118,7 @@ const projects: Project[] = [
     date: "Mar 2026",
     status: "Under development",
     description:
-      "A bilingual mobile application that connects users with merchants to order construction materials.",
+      "A bilingual mobile application that connects users with merchants to order construction materials. The application is under development.",
     tags: ["Construction", "In Progress"],
     links: [],
   },
@@ -131,11 +131,11 @@ const projects: Project[] = [
     tags: ["Food", "Published", "iOS", "Android"],
     links: [
       {
-        label: "Android",
+        label: "Google Play",
         href: "https://play.google.com/store/apps/details?id=me.tamoura.foodrank",
       },
       {
-        label: "iOS",
+        label: "App Store",
         href: "https://apps.apple.com/eg/app/foodrank/id6760346130",
       },
     ],
@@ -150,7 +150,7 @@ const projects: Project[] = [
     logo: "/Filey.png",
     links: [
       {
-        label: "iOS",
+        label: "App Store",
         href: "https://apps.apple.com/us/app/filey-studio/id6758226508",
       },
     ],
@@ -165,11 +165,11 @@ const projects: Project[] = [
     logo: "/BOOST.png",
     links: [
       {
-        label: "iOS",
+        label: "App Store",
         href: "https://apps.apple.com/us/app/boost-sports-club/id6759531131",
       },
       {
-        label: "Android",
+        label: "Google Play",
         href: "https://play.google.com/store/apps/details?id=online.boostclub.app",
       },
     ],
@@ -180,15 +180,11 @@ const projects: Project[] = [
     status: "Published",
     description:
       "Built a production platform for an educational club serving parents and children.",
-    tags: ["Education", "Published", "iOS", "Web"],
+    tags: ["Education", "Published", "Web"],
     logo: "/sinan.png",
     links: [
       {
-        label: "iOS",
-        href: "https://apps.apple.com/eg/app/%D9%86%D8%A7%D8%AF%D9%8A-%D8%B3%D9%86%D8%A7%D9%86/id6670786043",
-      },
-      {
-        label: "Web",
+        label: "Web Site",
         href: "https://ladmission.app/sinan",
       },
     ],
@@ -203,11 +199,11 @@ const projects: Project[] = [
     logo: "/Juniors.png",
     links: [
       {
-        label: "iOS",
+        label: "App Store",
         href: "https://apps.apple.com/eg/app/juniors/id6496682724",
       },
       {
-        label: "Web",
+        label: "Web Site",
         href: "https://juniors.app/juniors",
       },
     ],
