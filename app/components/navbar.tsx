@@ -60,7 +60,7 @@ export function Navbar() {
           </span>
           <div className="hidden flex-col sm:flex">
             <span className="text-[10px] font-semibold uppercase tracking-[0.28em] text-slate-500 dark:text-slate-400">
-              Portfolio
+              Mobile Developer
             </span>
             <span className="text-sm font-semibold text-slate-900 dark:text-slate-100">
               Ahmed Salah Anter Mohamed

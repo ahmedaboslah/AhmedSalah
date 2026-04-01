@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title:
     "Ahmed Salah Anter Mohamed | Mobile Application Developer | Flutter Developer (iOS & Android) | FrontEnd Developer",
   description:
-    "Portfolio of Ahmed Salah Anter Mohamed, a Flutter mobile developer specializing in clean architecture, state management, and performance optimization.",
+    "Ahmed Salah Anter Mohamed, a Flutter mobile developer specializing in clean architecture, state management, and performance optimization.",
   openGraph: {
     title:
       "Ahmed Salah Anter Mohamed | Mobile Application Developer | Flutter Developer (iOS & Android) | FrontEnd Developer",

@@ -7,8 +7,6 @@ import type { Project } from "./components/projects-section";
 const summary =
   "Flutter Developer with 2+ years of experience building and delivering scalable mobile applications for Android & iOS, Skilled in Clean Architecture, Bloc/Cubit state management, and performance optimization, experienced in working with real clients, handling production apps, and publishing to App Store & Google Play, Passionate about building high-quality, user-friendly applications and continuously improving performance and maintainability";
 
-const portfolioUrl = "https://ahmed-salah-seven.vercel.app/";
-
 const experiences = [
   {
     role: "Flutter Developer",
@@ -587,7 +585,6 @@ export default function Home() {
           location="Cairo, El-Zaher"
           linkedin="https://www.linkedin.com/in/ahmed-salah-5084b71b6"
           github="https://github.com/ahmedaboslah"
-          portfolio={portfolioUrl}
         />
       </main>
 
@@ -610,14 +607,6 @@ export default function Home() {
               className="transition hover:text-[color:var(--accent)]"
             >
               GitHub
-            </a>
-            <a
-              href={portfolioUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:text-[color:var(--accent)]"
-            >
-              Portfolio
             </a>
           </div>
         </div>
